@@ -1,0 +1,11 @@
+Walkthrough video (3-5 min): <PASTE UNLISTED LOOM OR YOUTUBE URL HERE>
+
+Suggested coverage for the recording:
+- Sign in as Alice; show the "My documents" vs "Shared with me" split
+- Create a document, rename it, use the formatting toolbar (bold/italic/underline,
+  headings, lists), and show autosave
+- Import a .md or .docx file into a new document
+- Share the document with Bob as a viewer; sign in as Bob and show view-only is
+  enforced; promote Bob to editor and show editing now works
+- Mention what was intentionally deprioritized (real-time sync, comments, history)
+- Briefly show the tests passing and how AI supported the workflow

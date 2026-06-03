@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    image: ajaia-docs
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      # IMPORTANT: override this with a strong secret in any real deployment.
+      JWT_SECRET: change-me-in-production
+      JWT_EXPIRES_IN: 7d
+      SEED_PASSWORD: password123
+      DATABASE_PATH: /app/data/app.sqlite
+      FRONTEND_DIST: /app/frontend/dist
+    volumes:
+      # Persist the SQLite database across container restarts.
+      - ajaia-data:/app/data
+
+volumes:
+  ajaia-data:

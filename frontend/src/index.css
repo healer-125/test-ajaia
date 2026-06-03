@@ -1,0 +1,95 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/*
+ * Tailwind's preflight strips default element styling, so we restore sensible
+ * typography inside the rich-text editor surface and the read-only renderer.
+ */
+.doc-content {
+  line-height: 1.65;
+}
+.doc-content:focus {
+  outline: none;
+}
+.doc-content h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 0.8em 0 0.4em;
+}
+.doc-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.7em 0 0.35em;
+}
+.doc-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.6em 0 0.3em;
+}
+.doc-content p {
+  margin: 0.5em 0;
+}
+.doc-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0.5em 0;
+}
+.doc-content ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin: 0.5em 0;
+}
+.doc-content u {
+  text-decoration: underline;
+}
+.doc-content a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+.doc-content blockquote {
+  border-left: 3px solid #cbd5e1;
+  padding-left: 1rem;
+  color: #475569;
+  margin: 0.6em 0;
+}
+.doc-content code {
+  background: #f1f5f9;
+  padding: 0.1em 0.3em;
+  border-radius: 0.25rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+}
+.doc-content pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+.doc-content pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* Placeholder text for the empty editor. */
+.doc-content p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  color: #94a3b8;
+  float: left;
+  height: 0;
+  pointer-events: none;
+}

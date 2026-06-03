@@ -1,0 +1,14 @@
+**/node_modules
+**/dist
+**/build
+**/coverage
+**/.env
+**/.env.local
+**/*.sqlite
+data/
+.git
+*.log
+README.md
+ARCHITECTURE.md
+AI_WORKFLOW.md
+SUBMISSION.md
