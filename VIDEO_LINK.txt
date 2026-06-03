@@ -1,4 +1,8 @@
-Walkthrough video (3-5 min): <PASTE UNLISTED LOOM OR YOUTUBE URL HERE>
+## Important
+I tried to deploy this on Render or Railway, but they don't provide free plan.
+
+
+Walkthrough video (3-5 min): https://www.loom.com/share/e3da24ecc9ec4f759b616d2a9d3d0a98
 
 Suggested coverage for the recording:
 - Sign in as Alice; show the "My documents" vs "Shared with me" split

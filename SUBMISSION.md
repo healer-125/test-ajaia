@@ -22,13 +22,11 @@ single-container deployment.
 | End-to-end test            | [backend/test/sharing.e2e-spec.ts](backend/test/sharing.e2e-spec.ts) |
 | Frontend test              | [frontend/src/components/RichTextEditor.test.tsx](frontend/src/components/RichTextEditor.test.tsx) |
 
-## To be provided at submission time
+## Deliverables
 
-> Fill these in before sending the Google Drive folder.
-
-- **Live product URL:** _<deploy via Docker to your platform of choice and paste the URL>_
-- **Walkthrough video URL:** _<unlisted Loom/YouTube link, see VIDEO_LINK.txt>_
-- **Google Drive folder:** _<link containing this repo + notes + video link>_
+- **Live product URL:** I couldn't do this. I tried on [Railway](https://railway.com/) and [Render](https://render.com/) but it's not free. Sorry. Instead, you can just run this by using npm command.
+- **Walkthrough video URL:** https://www.loom.com/share/e3da24ecc9ec4f759b616d2a9d3d0a98
+- **Google Drive folder:** https://drive.google.com/file/d/19oazlgdZ2hs6LUSAq5OVS4k9nmp58t0i/view?usp=sharing
 
 ## Test / review accounts
 
